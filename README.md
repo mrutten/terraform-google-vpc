@@ -15,16 +15,16 @@ This is a Terraform module that creates a number of VPC's and optionally sets a 
 
 ## Requirements
 
-| Name                                                                      | Version        |
-| ------------------------------------------------------------------------- | -------------- |
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.0      |
-| <a name="requirement_google"></a> [google](#requirement\_google)          | < 5.0, >= 4.64 |
+| Name                                                                      | Version   |
+| ------------------------------------------------------------------------- | --------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.0 |
+| <a name="requirement_google"></a> [google](#requirement\_google)          | 5.2.0     |
 
 ## Providers
 
-| Name                                                       | Version        |
-| ---------------------------------------------------------- | -------------- |
-| <a name="provider_google"></a> [google](#provider\_google) | < 5.0, >= 4.64 |
+| Name                                                       | Version |
+| ---------------------------------------------------------- | ------- |
+| <a name="provider_google"></a> [google](#provider\_google) | 5.2.0   |
 
 ## Modules
 
@@ -32,10 +32,10 @@ No modules.
 
 ## Resources
 
-| Name                                                                                                                                                                     | Type     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
-| [google_compute_network.network](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network)                                         | resource |
-| [google_compute_shared_vpc_host_project.shared_vpc_host](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_shared_vpc_host_project) | resource |
+| Name                                                                                                                                                                    | Type     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [google_compute_network.network](https://registry.terraform.io/providers/hashicorp/google/5.2.0/docs/resources/compute_network)                                         | resource |
+| [google_compute_shared_vpc_host_project.shared_vpc_host](https://registry.terraform.io/providers/hashicorp/google/5.2.0/docs/resources/compute_shared_vpc_host_project) | resource |
 
 ## Inputs
 
